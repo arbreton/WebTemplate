@@ -1,24 +1,5 @@
-# README
+# WebTemplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails website using bootstrap, jQuery, jQuery-easing, fontawesome, magnific-popup and scrollreveal
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![ScreenShot](https://image.ibb.co/dxq2Xb/Screen_Shot_2017_11_08_at_5_08_58_PM.png)
