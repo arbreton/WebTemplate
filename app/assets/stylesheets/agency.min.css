@@ -3,7 +3,59 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+.clock-buttons {
+  text-align: center;
+  margin: 2rem 0 0;
+  direction: ltr;
+}
 
+
+.btn-clock {
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+  font-weight: 700;
+  padding: 1.25rem 2.5rem;
+  color: #111;
+  background-color: #f8f9fa;
+  border-color: #f8f9fa;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  display: inline;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  font-family: 'Source Sans Pro';
+  border: 1px solid transparent;
+}
+
+.btn-clock:hover {
+  color: #111;
+  background-color: #e2e6ea;
+  border-color: #dae0e5;
+  text-decoration: none;
+}
+
+.icotext {
+  font-size: 3rem;
+  color: white;
+  font-family: inherit;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 3rem!important;
+}
+
+.clock-container {
+  text-align: center;
+}
+
+.clock {
+  display: inline-block;
+  width: auto;
+}
 
  .row-timeline {
    margin-bottom: 80px;
@@ -123,6 +175,7 @@
 
 .timeline .timeline-heading h4 {
   margin-top: 0;
+  margin-bottom: 0.5rem;
   color: inherit
 }
 
@@ -131,7 +184,7 @@
 }
 
 .timeline .timeline-body>p, .timeline .timeline-body>ul {
-  margin-bottom: 0
+  margin-bottom: 0.7rem;
 }
 
 @media (min-width:768px) {
